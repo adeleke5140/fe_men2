@@ -1,6 +1,11 @@
-.attribution { font-size: 11px;
-                text-align: center; 
+.attribution {
+    font-size: 1rem;
+    margin-top: 1em;
+    text-align: center; 
 }
         
-.attribution a { color: hsl(228, 45%, 44%);
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-weight: map-get($map: $font-weights, $key:'medium' );
  }
