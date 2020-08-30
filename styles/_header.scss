@@ -1,0 +1,32 @@
+body{
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+header {
+    text-align: center;
+    margin-top: 5em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+        h1 {
+            font-weight: map-get($map: $font-weights, $key:'medium' );
+            font-size: 1.5rem;
+            width: 90%;
+            color: $n-color1;
+            line-height: 1.4;
+                .h1_highlight {
+                    font-weight: map-get($map: $font-weights, $key:'bold' );
+                    color: #000;
+                    
+                }
+        }
+        p{
+            font-weight: map-get($map: $font-weights, $key:'normal' );
+            width: 80%;
+            color: $n-color1;
+            margin-top: 1em;
+            line-height: 1.6;
+        }
+}
