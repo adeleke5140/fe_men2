@@ -51,18 +51,6 @@ header p {
   line-height: 1.6;
 }
 
-.attribution {
-  font-size: 1rem;
-  margin-top: 1em;
-  text-align: center;
-}
-
-.attribution a {
-  color: #3e52a3;
-  text-decoration: none;
-  font-weight: 400;
-}
-
 .card_wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -126,6 +114,18 @@ img {
   float: right;
   position: relative;
   top: 40px;
+}
+
+.attribution {
+  font-size: 1rem;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1600px) {
