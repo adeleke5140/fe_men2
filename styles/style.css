@@ -8,12 +8,15 @@
 /*Primary Color*/
 /*Neutral color*/
 .attribution {
-  font-size: 11px;
+  font-size: 1rem;
+  margin-top: 1em;
   text-align: center;
 }
 
 .attribution a {
   color: #3e52a3;
+  text-decoration: none;
+  font-weight: 400;
 }
 
 body {
@@ -54,9 +57,10 @@ header h1 .h1_highlight {
 
 header p {
   font-weight: 200;
-  width: 69%;
+  width: 80%;
   color: #4c4e61;
   margin-top: 1em;
+  line-height: 1.6;
 }
 
 .card_wrapper {
@@ -93,24 +97,27 @@ header p {
 }
 
 [class*='card-'] {
-  width: 90%;
+  width: 85%;
   background-color: #fafafa;
   border-radius: 5px;
   padding: 1.5em;
-  margin-bottom: 4%;
+  margin-bottom: 5%;
   height: 200px;
-  -webkit-box-shadow: 2px 7px 18px #a3a5ae;
-          box-shadow: 2px 7px 18px #a3a5ae;
+  -webkit-box-shadow: 2px 5px 18px #a3a5ae;
+          box-shadow: 2px 5px 18px #a3a5ae;
   border-top-width: 4px;
   border-top-style: solid;
 }
 
 .card_title {
   margin-bottom: 0.5em;
+  font-weight: 600;
 }
 
 [class*='card-'] > p {
+  font-weight: 200;
   line-height: 1.6;
-  width: 90%;
+  width: 100%;
+  color: #4c4e61;
 }
 /*# sourceMappingURL=style.css.map */
