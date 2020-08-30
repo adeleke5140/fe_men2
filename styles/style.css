@@ -1,1 +1,116 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*Primary Color*/
+/*Neutral color*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+header {
+  text-align: center;
+  margin-top: 5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 90%;
+  color: #4c4e61;
+  line-height: 1.4;
+}
+
+header h1 .h1_highlight {
+  font-weight: 600;
+  color: #000;
+}
+
+header p {
+  font-weight: 200;
+  width: 69%;
+  color: #4c4e61;
+  margin-top: 1em;
+}
+
+.card_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin-top: 5em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card_wrapper .card-1 {
+  border-top-color: #45d3d3;
+}
+
+.card_wrapper .card-2 {
+  border-top-color: #ea5353;
+}
+
+.card_wrapper .card-3 {
+  border-top-color: #fcaf4a;
+}
+
+.card_wrapper .card-4 {
+  border-top-color: #549ef2;
+}
+
+[class*='card-'] {
+  width: 90%;
+  background-color: #fafafa;
+  border-radius: 5px;
+  padding: 1.5em;
+  margin-bottom: 4%;
+  height: 200px;
+  -webkit-box-shadow: 2px 7px 18px #a3a5ae;
+          box-shadow: 2px 7px 18px #a3a5ae;
+  border-top-width: 4px;
+  border-top-style: solid;
+}
+
+.card_title {
+  margin-bottom: 0.5em;
+}
+
+[class*='card-'] > p {
+  line-height: 1.6;
+  width: 90%;
+}
+/*# sourceMappingURL=style.css.map */
