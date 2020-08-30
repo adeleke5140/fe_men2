@@ -1,5 +1,8 @@
 # Four card front-end mentor challenge
 
+It's quite easy but compared to my first challenge, this didn't take me that long. Grid was very helpful.
+Here's the live link if you wanna check it out https://four4-card.netlify.app/
+
 ## Desktop Preview
 ![Design preview for the four card section](./screenshot/desktop-preview.png)
 
