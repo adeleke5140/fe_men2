@@ -2,6 +2,7 @@
 @import 'variables.scss';
 @import 'footer.scss';
 
+
 body{
     font-family:'Poppins', sans-serif;
     font-size: 15px;
@@ -78,3 +79,4 @@ header {
     width: 100%;
     color: $n-color1;
 }
+@import 'media.scss';

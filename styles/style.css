@@ -120,4 +120,18 @@ header p {
   width: 100%;
   color: #4c4e61;
 }
+
+@media only screen and (min-width: 767px) and (max-width: 1600px) {
+  header h1 {
+    width: 40%;
+    font-size: 2rem;
+  }
+  header p {
+    width: 38%;
+  }
+  main.card_wrapper {
+    display: -ms-grid;
+    display: grid;
+  }
+}
 /*# sourceMappingURL=style.css.map */
